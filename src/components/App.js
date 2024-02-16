@@ -6,12 +6,12 @@ import './App.css';
 
 function App() {
   return (
-    <section className="container">
+    <div className="container">
       <h2 id="review-heading">Our Reviews</h2>
       <main>
         <Review />
       </main>
-    </section>
+    </div>
   );
 }
 
